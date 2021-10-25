@@ -1,0 +1,20 @@
+.App {
+  background-color: whitesmoke;
+}
+
+.input-search {
+  max-width: 300px;
+}
+
+.global-search {
+  justify-content: flex-end !important;
+}
+
+.pageSizing,
+.gotoPage {
+  width: 65px !important;
+}
+
+.page-buttons {
+  font-weight: 600 !important;
+}

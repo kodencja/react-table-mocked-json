@@ -1,3 +1,5 @@
+Display data json in a table supported by react-table and bootstrap 5.0, with global and column filtering and pagination.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
