@@ -8,4 +8,4 @@ const SortingIndicator = ({ column }) => {
   );
 };
 
-export default React.memo(SortingIndicator);
+export default SortingIndicator;
