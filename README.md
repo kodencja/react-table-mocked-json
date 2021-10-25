@@ -1,4 +1,4 @@
-Display data json in a table supported by react-table, react-bootstrap and bootstrap 5.0, with global and column filtering and pagination. The table has filtering (global and in columns), pagination, hide / show checkboxes and one extra column for selection.
+Display data json in a table supported by react-table, react-bootstrap and bootstrap 5.0, with global and column filtering and pagination. The table has filtering (global and in columns), pagination, sorting by columns, hide / show checkboxes and one extra column for selection.
 
 # Getting Started with Create React App
 
