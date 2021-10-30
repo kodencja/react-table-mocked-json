@@ -3,12 +3,6 @@
   "errors": "",
   "data": [
     {
-      "ident": "AKCIAZ",
-      "tytul_polski": "Aktywna ci\u0105\u017ca dla bystrzak\u00f3w",
-      "liczba_stron": "384",
-      "data_wydania": "2008-05-14"
-    },
-    {
       "ident": "AKGIBY",
       "tytul_polski": "Akordy gitarowe dla bystrzak\u00f3w",
       "liczba_stron": "376",
@@ -1958,6 +1952,5 @@
       "liczba_stron": "128",
       "data_wydania": "2018-01-12"
     }
-  ],
-  "0": 16
+  ]
 }
