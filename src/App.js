@@ -5,6 +5,7 @@ import HeaderMain from "./components/header/HeaderMain";
 import { Spinner} from "react-bootstrap";
 import ErrorBoundary from "./components/errors/ErrorBoundary";
 import './styles/style.css'
+import Footer from "./components/footer/Footer";
 
 function App() {
 const [data, setData] = useState([]);
@@ -58,9 +59,16 @@ const columns = useMemo(() =>{
       isLoading ? (<Spinner animation="border" variant="info" />) :
       <ErrorBoundary>
       <TableBooks data={productsData} columns={columns}/>
+
       </ErrorBoundary>}
       </div>
-
+      <Footer
+        btnTxt1="Home Page"
+        btnTxt2="Code info"
+        txt1="&copy; 2022 "
+        txt2="by"
+        txt3="Codencja"
+      />
     </div>
   );
 }
