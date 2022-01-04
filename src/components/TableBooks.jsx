@@ -18,7 +18,7 @@ import TableHead from "./table_parts/TableHead";
 import HidingController from "./table_parts/hiding_controller/HidingController";
 
 const TableBooks = ({ columns, data }) => {
-  // call custom useTableHooks to vreate selection column
+  // call custom useTableHooks to create selection column
   const tableHooks = useTableHooks("wybierz");
 
   // add 'Filter' attribute to every column created from database

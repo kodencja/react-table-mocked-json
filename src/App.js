@@ -11,11 +11,11 @@ const [data, setData] = useState([]);
 const [error, setError] = useState();
 const [isLoading, setIsLoading] = useState(false);
 
-// here we should get the data e.g. by fetchin from some url; we should get either data property from the database or if the file itself is our data fetch it all
+// here we should get the data e.g. by fetching from some url; we should get it either through 'data' property from the url response (database) or from the file itself
 useEffect(() => {
   let data_arr;
   
-  if(BOOKS_DATA.data){
+  if(BOOKS_DATA && BOOKS_DATA.data){
     data_arr = BOOKS_DATA.data;
   } else {
     data_arr = BOOKS_DATA;
